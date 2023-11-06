@@ -8,7 +8,7 @@ Notes for Machine Learning Foundations: Linear Algebra
 • Main Building Blocks and Areas:
   - Systems of linear equations, vectors and matrices, linear transformations, determinants, and vector spaces (the study of vectors and linear functions).
 
-• Machine Learning:
+• Machine Learning: (Also taught in Intro to Artificial Intelligence: 4.2.)
   - Dealing with vectors and matrices.
   - Large data sets and matrices.
   - Split data set into training and testing data set.
@@ -39,6 +39,14 @@ Notes for Machine Learning Foundations: Linear Algebra
      |Green| -----> |  0  |  1  |   0  |
      |Blue |        |  0  |  0  |   1  |
      |Green|        |  0  |  1  |   0  |
+
+  4. Linear Regression:
+    - The most common way of solving linear regression is via a least square optimization (matrix factorization method):
+    - Example below:
+
+             3   0 (circled by blue) 
+       A =  -4   2 (circled by red)
+             3  -5 (circled by green)
 
 
 
