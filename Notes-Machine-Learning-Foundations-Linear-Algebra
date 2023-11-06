@@ -1,0 +1,57 @@
+Notes for Machine Learning Foundations: Linear Algebra
+
+• Defining Linear Algebra: 
+  - Algebra: A branch of mathematics that uses mathematical statements to describe relationships between things that may vary.
+  - Linear Algebra: A branch of mathematics that lets you concisely describe coordinates and interactions of planes in higher dimensions and perform operations on them.
+  -  A.K.A., Linear Algebra is the study of vectors and linear functions.
+
+• Main Building Blocks and Areas:
+  - Systems of linear equations, vectors and matrices, linear transformations, determinants, and vector spaces (the study of vectors and linear functions).
+
+• Machine Learning:
+  - Dealing with vectors and matrices.
+  - Large data sets and matrices.
+  - Split data set into training and testing data set.
+• Applications of Linear Algebra in ML:
+  1. Data set and data files: data set is either a matrix or vector.
+  2. Images and photographs.
+  3. Data preparation: Dimensionality reduction or one hot encoding.
+  3.1. Dimensionality Reduction:
+    - Data sets are represented as matrices.
+    - Use matrix factorization methods to reduce it into its constituent parts.
+    - Example below:
+
+        a11 |  a12  | a13
+        a21 |  a22  | a23
+    A = a31 |  a32  | a33
+         .  |   .   |  . 
+         .  |   .   |  .
+         .  |   .   |  .
+        an1 |  an2  | an3
+
+  3.2. One Hot Encoding: 
+    - Used when working with categorical data.
+    - Example: Class labels for classification problems, or categorical input variables (below):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
