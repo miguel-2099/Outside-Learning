@@ -31,8 +31,14 @@ Notes for Machine Learning Foundations: Linear Algebra
 
   3.2. One Hot Encoding: 
     - Used when working with categorical data.
-    - Example: Class labels for classification problems, or categorical input variables (below):
+    - Example: Class labels for classification problems, or categorical input variables (below).
+    - (It's common to encode categorical variables to make them easier to work with).
 
+     |Color|        | Red |Green| Blue |
+     | Red |        |  1  |  0  |   0  |      
+     |Green| -----> |  0  |  1  |   0  |
+     |Blue |        |  0  |  0  |   1  |
+     |Green|        |  0  |  1  |   0  |
 
 
 
