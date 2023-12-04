@@ -89,14 +89,15 @@ Notes for Machine Learning Foundations: Linear Algebra
                     GOOD FIT / ROBUST MODEL                                         
 
   6. Principal Component Analysis: Method for automatically reducing the number of columns of a dataset:
-    - Used in Machine Learning f]to create a projection of high-dimensional data for both visualizations and training models.
+    - Used in Machine Learning f]to create a projection of high-dimensional data for visualizations and training models.
     - The core of PCA methods is matrix factorization method.
     - Example:
 
-            ⎾ 3  0  4  !6  (blue colored)
-        A = | -4
-            ⎿
+            ⎾  3  0  4  !6  (blue colored)
+        A = | -4  2  2   !2  (red colored)
+            ⎿  3 -5  4  !2  (green colored)
 
+  7. Deep Learning: Scaled up to multiple dimensions, deep learning methods work w/ vectors, matrices, and tensors of inputs and coefficients (specific subfield of Machine Learning).
 
 
 
