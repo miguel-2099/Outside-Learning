@@ -53,22 +53,73 @@ Notes for Machine Learning Foundations: Linear Algebra
     - Overfitting: used when a model is too close a fit for the available data to the point that it does not perform well w/ any new or outside data.
     - In a nutshell, overfitting is used to encourage a model to minimize the size of coefficients while it's being fit on data.
 
-        Epochs →
-        |
-   100% |        Training Accuracy
-        |        *********  *******
-        |       **                **
-   80%  |      *                    *
-        |     *                     *
-   60%  |    *           
-        |   *                         *
-   40%  |  *    *                       *
-        | * *                            *
-   20%  |* *                              *
-        |-------------------------------------
-        1                              100
+      VALUES                                                                      
+        ↑
+        |        
+        |         *  *  *  *  *  *  *
+        |        *                    * 
+        |       *   *  *  *  *  *  *   *            
+        |      *   *                *   *         *    *
+        |     *   *                  *   *       *    *
+        |    *   *                    *   *     *   *                        (<------ FINISH MODEL LATER, WRITE NOW!)
+        |   *   *                      *   *   *   * 
+        |  *   *                        *   *  *   *
+        | *   *                          *   * *   *
+        |*   *                             *      * 
+        |                                      *
+        |-------------------------------------> TIME         
+                       OVERFITTED MODEL                                                  
+        
+      VALUES
+        ↑                                                                   
+        |                                                          
+        |         *  *  *  *  *  *  *                                         
+        |        * ⎾ -  -  -  -  -  ⏋*                            
+        |       * / *  *  *  *  *  * \ *                                  
+        |      * | *                * | *         *  / *                          
+        |     * / *                  * \ *      *  / *              
+        |    * | *                    * | *     * | *              
+        |   * / *                      * \ *   * / *                 
+        |  * | *                        * | *  * | *                 
+        | * / *                          * \ * * / *               
+        |* | *                             *  ⏘  *      
+        |                                     *
+        |-------------------------------------> TIME                     
+                                                                              
+                    GOOD FIT / ROBUST MODEL                                         
 
-    
+  6. Principal Component Analysis: Method for automatically reducing the number of columns of a dataset:
+    - Used in Machine Learning f]to create a projection of high-dimensional data for both visualizations and training models.
+    - The core of PCA methods is matrix factorization method.
+    - Example:
+
+            ⎾ 3  0  4  !6  (blue colored)
+        A = | -4
+            ⎿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
