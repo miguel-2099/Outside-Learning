@@ -12,4 +12,15 @@ Artificial Neural Networks (2.2):
 • Guesses:
 
               // ADD ARTIFICIAL NEURAL NETWORK GUESSES HERE: //
-
+        Input Layer       Hidden Layer                Output Layer
+          ||     ||      ⚪          ⚪      ||      ||     ||
+          ||➔   ⚫                           ||      Ⓐ   🡄||
+          ||     ||      ⚪          ⚪      ||      ||     ||
+          ||     ||                           ||      ||     ||
+          ||➔   ⚫                           ||      ||     ||
+          ||     ||      ⚪          ⚪      ||      ||     ||
+          ||     ||                           ||      Ⓐ    🡄||
+          ||➔   ⚫                           ||      ||     ||
+          ||     ||      ⚪          ⚪      ||      ||     ||
+          
+                 
