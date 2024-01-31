@@ -1,0 +1,27 @@
+Chapter 1: What is AI? 
+  Define General Intelligence:
+    • Computer Intelligence and Human Intelligence start from very different places.
+
+
+Chapter 2: The Rise of Machine Learning
+  Machine Learning:
+    • Program a system to become intelligent through observation, by sensing data, and by learning through data. Machines could continue to grow with more data.
+
+  Artificial Neural Networks:
+    • Artificial Neural Network: AI System that mimics the structure of the human brain; The artificial neural network uses hundreds (or millions) of numerical dials.
+    • Neural networks are Machine Learning systems; Networks need access to huge amounts of data.
+    • Guesses:
+
+                // ADD ARTIFICIAL NEURAL NETWORK GUESSES HERE: //
+          Input Layer       Hidden Layer                Output Layer
+             ||     ||      ⚪          ⚪      ||      ||     ||
+            ||➔   ⚫                           ||      Ⓐ   🡄||
+            ||     ||      ⚪          ⚪      ||      ||     ||
+            ||     ||                           ||      ||     ||
+            ||➔   ⚫                           ||      ||     ||
+            ||     ||      ⚪          ⚪      ||      ||     ||
+            ||     ||                           ||      Ⓐ    🡄||
+            ||➔   ⚫                           ||      ||     ||
+            ||     ||      ⚪          ⚪      ||      ||     ||
+
+
