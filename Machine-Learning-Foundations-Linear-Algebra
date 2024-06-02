@@ -1,5 +1,7 @@
 Notes for Machine Learning Foundations: Linear Algebra
 
+CHP 1: Introduction to Linear Algebra:
+
 • Defining Linear Algebra: 
   - Algebra: A branch of mathematics that uses mathematical statements to describe relationships between things that may vary.
   - Linear Algebra: A branch of mathematics that lets you concisely describe coordinates and interactions of planes in higher dimensions and perform operations on them.
@@ -14,8 +16,11 @@ Notes for Machine Learning Foundations: Linear Algebra
   - Split data set into training and testing data set.
 • Applications of Linear Algebra in ML:
   1. Data set and data files: data set is either a matrix or vector.
+
   2. Images and photographs.
+
   3. Data preparation: Dimensionality reduction or one hot encoding.
+
   3.1. Dimensionality Reduction:
     - Data sets are represented as matrices.
     - Use matrix factorization methods to reduce it into its constituent parts.
@@ -29,6 +34,7 @@ Notes for Machine Learning Foundations: Linear Algebra
          .  |   .   |  .
         an1 |  an2  | an3
 
+
   3.2. One Hot Encoding: 
     - Used when working with categorical data.
     - Example: Class labels for classification problems, or categorical input variables (below).
@@ -40,6 +46,7 @@ Notes for Machine Learning Foundations: Linear Algebra
      |Blue |        |  0  |  0  |   1  |
      |Green|        |  0  |  1  |   0  |
 
+
   4. Linear Regression:
     - The most common way of solving linear regression is via a least square optimization (matrix factorization method):
     - Example below:
@@ -47,6 +54,7 @@ Notes for Machine Learning Foundations: Linear Algebra
              3   0 (circled by blue) 
        A =  -4   2 (circled by red)
              3  -5 (circled by green)
+
 
   5. Regularization:
     - Used to prevent the model from overfitting.
@@ -88,33 +96,47 @@ Notes for Machine Learning Foundations: Linear Algebra
                                                                               
                     GOOD FIT / ROBUST MODEL                                         
 
+
   6. Principal Component Analysis: Method for automatically reducing the number of columns of a dataset:
-    - Used in Machine Learning f]to create a projection of high-dimensional data for visualizations and training models.
-    - The core of PCA methods is matrix factorization method.
+    - Used in Machine Learning to create a projection of high-dimensional data for visualizations and training models.
+    - The core of PCA methods is the matrix factorization method.
     - Example:
 
             ⎾  3  0  4  !6  (blue colored)
         A = | -4  2  2   !2  (red colored)
             ⎿  3 -5  4  !2  (green colored)
 
-  7. Deep Learning: Scaled up to multiple dimensions, deep learning methods work w/ vectors, matrices, and tensors of inputs and coefficients (specific subfield of Machine Learning).
+
+  7. Latent Semantic Analysis (LSA): A form of data preparation used in natural language processing, a subfield of ML for working with text data.
+    - i.e.: Keyword Categorization
+      - Documents are usually represented as large matrices of word occurrences. Then, apply matrix factorization of methods to them in order to be able to 
+        easily compare, query, and use them as basis for the ML model.
 
 
+  8. Recommender Systems: PRedictive modeling problems involving product recommendations.
+    - i.e.: Amazon Shopping:
+      - Used each time you buy something on Amazon and you get recommendations of products based on your previous purchases.
 
 
+  9. Deep Learning: Specific subfield of ML:
+    - Scaled up to multiple dimensions, deep learning methods work w/ vectors, matrices, and tensors of inputs and coefficients
+
+| Question 1/3: What are the main building blocks of linear algebra? 
+|A: systems of linear equations, vectors and matrices, linear transformations, determinants, and vector spaces
+|
+| Question 2/3: Modeling data with many features is challenging and it's hard to know which features of data are relevant and  
+|               which are not. One of the methods for automatically reducing the number of columns of a dataset is _____.
+|A: Principal Component Analysis
+|
+| Question 3/3: _____ is a form of data preparation used in natural language processing, a subfield of ML for working with text data.
+|A: Latent Semantic Analysis
 
 
+CHP 2: Vectors Basics:
 
+• Introduction to Vectors:
 
-
-
-
-
-
-
-
-
-
+  - *Add information and notes here*
 
 
 
