@@ -2,19 +2,19 @@ Notes for Machine Learning Foundations: Linear Algebra
 
 CHP 1: Introduction to Linear Algebra:
 
-• Defining Linear Algebra: 
+- Defining Linear Algebra: 
   - Algebra: A branch of mathematics that uses mathematical statements to describe relationships between things that may vary.
   - Linear Algebra: A branch of mathematics that lets you concisely describe coordinates and interactions of planes in higher dimensions and perform operations on them.
   -  A.K.A., Linear Algebra is the study of vectors and linear functions.
 
-• Main Building Blocks and Areas:
+- Main Building Blocks and Areas:
   - Systems of linear equations, vectors and matrices, linear transformations, determinants, and vector spaces (the study of vectors and linear functions).
 
-• Machine Learning: (Also taught in Intro to Artificial Intelligence: 4.2.)
+- Machine Learning: (Also taught in Intro to Artificial Intelligence: 4.2.)
   - Dealing with vectors and matrices.
   - Large data sets and matrices.
   - Split data set into training and testing data set.
-• Applications of Linear Algebra in ML:
+- Applications of Linear Algebra in ML:
   1. Data set and data files: data set is either a matrix or vector.
 
   2. Images and photographs.
@@ -113,7 +113,7 @@ CHP 1: Introduction to Linear Algebra:
         easily compare, query, and use them as basis for the ML model.
 
 
-  8. Recommender Systems: PRedictive modeling problems involving product recommendations.
+  8. Recommender Systems: Predictive modeling problems involving product recommendations.
     - i.e.: Amazon Shopping:
       - Used each time you buy something on Amazon and you get recommendations of products based on your previous purchases.
 
@@ -140,7 +140,8 @@ CHP 2: Vectors Basics:
     - Scalar: A number, denoted with a lowercase symbol, such as a or b. For example, weight/200 lbs, temperature/55 Fahrenheit, and blood pressure/120 by 80.
     - Vectors: Lowercase bolded Roman letters, an arrow printed on top (→α). By definition, a vector is an ordered list of numbers, for example, α = [8 4 5 2 7]
       - Vector Characteristics: 
-        - Dimensionality: The number of elements in the vector: α = [1 9 5 8 7 2 4 3 6], which in this case, the dimensionality is 9
+        - Dimensionality: It's called the length or the shape of the vector in Python.
+          - The number of elements in the vector: α = [1 9 5 8 7 2 4 3 6], which in this case, the dimensionality is 9
  
                                                                                      |1|
         - Orientation: Column orientation (tall) or row orientation (flat/wide): b = |2|  or c = [1 2 3]
@@ -155,6 +156,40 @@ CHP 2: Vectors Basics:
 
         - z is a 3D row vector: z = [1 2 3]
 
+        - If you use vectors for storing data, orientation usually doesn't matter. But when performing arithmetic operations it's extremely important,
+          since the wrong orientation leads to unexpected results or even errors.
+      
+      - By convention, vectors are column-oriented*. If they're row-oriented, then they are written with v^t which indicates the transpose operation 
+        which converts a column vector into a row vector**.
+             |1|
+        *v = |2|        
+             |3|
+             |4|
+
+        **v^t = [1 2 3 4]
+
+        - If we want to represent the vector graphically, see below:
+
+       y ↑ 
+         |
+         |       α
+         |----------------┒← Head
+         |              ↗ ┆                            - →V is the vector, and in our case, α and b are scalars denoting the magnitude of →v in
+         |            ̷    ┆                              in horizontal and vertical directions. The algebraic interpretation of a vector is an 
+         |    →     ̷      ┆                              ordered list of numbers. The geometric interpretation of a vector is a line that has 
+         |    v   ̷        ┆  b                           specific length and direction also called an angle. It's computed relative to the 
+         |      ̷          ┆                              positive X-axis.
+         |    ̷            ┆                              
+         |  ̷              ┆                            - The two points of a vector are called the tail, where the vector starts, and the head 
+         |̷                ┆                              that has the tipo of the arrow tip, where it ends.
+  Tail → ┕--------------------------------→
+                                          x
+
+        - Vector Representation: We can represent vectors in Python using several data types. The simplest way to represent a vector is with a list.
+          - vectorAsList = [1,2,3,4,5]
+            - However, as many linear algebra operations don't work on Python list we can create vectors as NumPy arrays called ND arrays. See below.)
+          - vectorasArray =np.array([1,2,3,4,5])
+            - This array above is an orientationless array, meaning it's neither a row nor a column vector. In NumPy, we indicate orientation with brackets.
 
 
 
@@ -163,6 +198,21 @@ CHP 2: Vectors Basics:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
 
 
 
