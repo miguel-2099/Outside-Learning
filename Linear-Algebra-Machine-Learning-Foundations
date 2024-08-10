@@ -136,14 +136,24 @@ CHP 2: Vectors Basics:
 
 • Introduction to Vectors:
 
-  - *Add information and notes here*
+  - Difference between Scalar and Vector:
+    - Scalar: A number, denoted with a lowercase symbol, such as a or b. For example, weight/200 lbs, temperature/55 Fahrenheit, and blood pressure/120 by 80.
+    - Vectors: Lowercase bolded Roman letters, an arrow printed on top (→α). By definition, a vector is an ordered list of numbers, for example, α = [8 4 5 2 7]
+      - Vector Characteristics: 
+        - Dimensionality: The number of elements in the vector: α = [1 9 5 8 7 2 4 3 6], which in this case, the dimensionality is 9
+ 
+                                                                                     |1|
+        - Orientation: Column orientation (tall) or row orientation (flat/wide): b = |2|  or c = [1 2 3]
+                                                                                     |3| 
 
+      - Examples of Vectors:           |1|
+        - x is a 3D column vector: x = |2|  
+                                       |3|
+         
+        - y is a 2D column vector: y = |1|
+                                       |2|
 
-
-
-
-
-
+        - z is a 3D row vector: z = [1 2 3]
 
 
 
