@@ -2,19 +2,19 @@ Notes for Machine Learning Foundations: Linear Algebra
 
 CHP 1: Introduction to Linear Algebra:
 
-- Defining Linear Algebra: 
+• Defining Linear Algebra: 
   - Algebra: A branch of mathematics that uses mathematical statements to describe relationships between things that may vary.
   - Linear Algebra: A branch of mathematics that lets you concisely describe coordinates and interactions of planes in higher dimensions and perform operations on them.
   -  A.K.A., Linear Algebra is the study of vectors and linear functions.
 
-- Main Building Blocks and Areas:
+• Main Building Blocks and Areas:
   - Systems of linear equations, vectors and matrices, linear transformations, determinants, and vector spaces (the study of vectors and linear functions).
 
-- Machine Learning: (Also taught in Intro to Artificial Intelligence: 4.2.)
+• Machine Learning: (Also taught in Intro to Artificial Intelligence: 4.2.)
   - Dealing with vectors and matrices.
   - Large data sets and matrices.
   - Split data set into training and testing data set.
-- Applications of Linear Algebra in ML:
+• Applications of Linear Algebra in ML:
   1. Data set and data files: data set is either a matrix or vector.
 
   2. Images and photographs.
@@ -187,13 +187,21 @@ CHP 2: Vectors Basics:
 
         - Vector Representation: We can represent vectors in Python using several data types. The simplest way to represent a vector is with a list.
           - vectorAsList = [1,2,3,4,5]
-            - However, as many linear algebra operations don't work on Python list we can create vectors as NumPy arrays called ND arrays. See below.)
-          - vectorasArray =np.array([1,2,3,4,5])
-            - This array above is an orientationless array, meaning it's neither a row nor a column vector. In NumPy, we indicate orientation with brackets.
+            - However, as many linear algebra operations don't work on Python list we can create vectors as NumPy arrays called ND arrays. See below.
+       
+          - vectorasArray = np.array([1,2,3,4,5])
+            - This array above is an orientationless array, meaning it's neither a row nor a column vector. In NumPy, we indicate orientation with brackets. See below.
+       
+          - rowVector = np.array([[1,2,3,4,5] ])
+            - The outer brackets group all elements together in one object as an additional set of brackets indicates a row.
+      
+          - columnVector = np.array([[1],[2],[3],[4],[5]])
+            - In the case above, we see it has only one column and five rows. 
 
 
+• Vector Arithmetic:
 
-
+    * Add notes here*
 
 
 
