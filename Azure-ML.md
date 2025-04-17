@@ -10,10 +10,26 @@
     Cloud computing is the delivery of computing services over the internet, like common IT infrastructure, virtual machines, storage, databases, and networking. Cloud services also expand the traditional IT services to include things like IoT, Machine Learning, and AI services.
     Because cloud computing doesn't have to be constrained by a physical infrastructure the same way with a traditional datacenter, it uses the internet to deliver these services. In a way, if you need to increase your infrasctructure rapidly, you don't have to wait to build a new datacenter, you can use the cloud to expand your IT footprint. (Compute power: how much processing your computer can do.)
 
-- Unit 4: 
+- Unit 4/8: 
   - Describe the shared responsability model:
-    - The model idea is sharing responsabilities between the cloud provider and the consumer. The responsabilities can shift depending on the situation, still, the cloud provider is responsible for: Physical security, power, cooling, and network connectivity. The consumer is responsible for: Data and information stored in the clour, and access security (access for those who need it).
-
+    - With an on-prem/on-premises datacenter, you're responsible for everything, and with cloud computing those responsabilities shift and the model idea is sharing responsabilities between the cloud provider and the consumer.
+    
+    - When using a cloud provider, you'll always be responsible for:
+        - Data and information stored in the cloud.
+        - Allowed devices that can connect to your cloud (cell phones, computer, and so on).
+        - Accounts and identities of people, services and devices withing the organization.
+    - The cloud provider will always be responsible for:
+        - The physical datacenter.
+        - The physical network.
+        - The physical hosts.
+    - The service model will determine responsbilit for things like:         
+        - Operating systems.
+        - Network controls.
+        - Applications.
+        - Identity and infrastructure.
+     
+- Unit 5/8:
+      
 
 
       
