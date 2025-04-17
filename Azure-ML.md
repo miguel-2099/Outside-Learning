@@ -11,6 +11,12 @@
     Because cloud computing doesn't have to be constrained by a physical infrastructure the same way with a traditional datacenter, it uses the internet to deliver these services. In a way, if you need to increase your infrasctructure rapidly, you don't have to wait to build a new datacenter, you can use the cloud to expand your IT footprint. (Compute power: how much processing your computer can do.)
 
 - Unit 4: 
+  - Describe the shared responsability model:
+    - The model idea is sharing responsabilities between the cloud provider and the consumer. The responsabilities can shift depending on the situation, still, the cloud provider is responsible for: Physical security, power, cooling, and network connectivity. The consumer is responsible for: Data and information stored in the clour, and access security (access for those who need it).
+
+
+
+      
 
 
 Define cloud computing.
