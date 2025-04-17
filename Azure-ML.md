@@ -33,8 +33,16 @@
       - Private cloud: In some ways, it's the natural evolution from a corporate datacenter. It provides much greater control for the company and its IT department, but is does come with greater cost and fewer benefits of a publid cloud deployemnt. It may be hosted on your on-prem datacenter, or a dedicated datacenter offsite, even by a thrid party that has dedicated that datacenter to your company.
       - Public cloud: It's built, controlled, and maintained by a third-party cloud provider. Anyone that wants to purchase the cloud services can access and use resources. The general public availability is a key difference between public and private clouds.
       - Hybrid Cloud: It's a computing enviroment that uses both public and private clouds in an inter-connected enviroment. It allows a private cloud to surge for increasted, temporary demand by deploying public cloud resources. Also, it can provide an extra layer of security.
-      - Multi-cloud: 
-
+      - Multi-cloud: You deal with two (or more) public cloud providers and manage resources and security in both enviroments. You may use multiple cloud providers and different features, or you started your cloud journey with one provider and are in the process of migration to a different provider.
+      - Azure Arc: It's a set of technologies that helps manage cloud enviroments. Also, it can manage your cloud enviroment, whether it's a public cloud solely on Azure, a private cloud in your datacenter, a hybrid configuration, or even a multi-cloud enviromnent running on multiple cloud providers at once.
+      - Azure VMware Solution: It lets you run your VMware workloads in Azure with seamless integration and scability.
+   
+- Unit 6/8
+  - Describe the consumption-based model:
+      - There are two types of expenser to consider when comparing IT infrastructure models: Capital expenditure (CapEx) and operational expenditure (OpEx). Cloud computing falls under OpEx because cloud computing operates on a consumption-based model, so you don't pay for the physical infrastructure, electricity, security or anything else associated with maintaining a datacenter. Instead, you pay for the IT resources you use.
+        - CapEx is a one-time, up-front expenditure to purchase a set of tangible resources. (i.e.: a new building, repaving the parking lot, building a datacenter, or byuing a company vehicle).
+        - OpEx is over time expennditure on services or products. (i.e.: Renting a convention center, leasing a company vehicle, or signing up for cloud services)
+      - 
       
 
 
