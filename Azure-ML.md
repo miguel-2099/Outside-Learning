@@ -29,8 +29,11 @@
         - Identity and infrastructure.
      
 - Unit 5/8:
-      
-
+  - Define cloud models:
+      - Private cloud: In some ways, it's the natural evolution from a corporate datacenter. It provides much greater control for the company and its IT department, but is does come with greater cost and fewer benefits of a publid cloud deployemnt. It may be hosted on your on-prem datacenter, or a dedicated datacenter offsite, even by a thrid party that has dedicated that datacenter to your company.
+      - Public cloud: It's built, controlled, and maintained by a third-party cloud provider. Anyone that wants to purchase the cloud services can access and use resources. The general public availability is a key difference between public and private clouds.
+      - Hybrid Cloud: It's a computing enviroment that uses both public and private clouds in an inter-connected enviroment. It allows a private cloud to surge for increasted, temporary demand by deploying public cloud resources. Also, it can provide an extra layer of security.
+      - Multi-cloud: 
 
       
 
