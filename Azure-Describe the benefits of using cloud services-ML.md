@@ -1,4 +1,4 @@
-[Describe the benefits of using cloud services](https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/1-introduction)
+[Describe the benefits of using cloud services](https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/)
 
 Unit 1/7 to 2/7:
   - Intro and Describe the benefits of high availability and scalability in the cloud:
@@ -11,14 +11,11 @@ Unit 1/7 to 2/7:
 
  Unit 3/7:
    - Describe the benefits of reliabilty and predictability in the cloud:
-     -  
-
-
-
-
-
-
-
+     - Two crucial cloud benefits that help you develop solutions with confidence are reliabilty and predictability.
+     - Reliability is the ability of a system to recover from failures and continue to function. It's also one of the pillars of the Microsoft Azure Well-Architected Framework.
+     - Predictability in the cloud lets you move forward with confidence. Predictability can be focused on performance predictability or cost predictability. Both performance and cost predictability are heavilty influenced by the MS Azure Well-Architected Framework.
+     - Performance: Performance predictabilty focused on predicting the resources needed to deliver a positive experience for customers. Autoscaling, load balancing, and high availability are just some of the cloud concepts that support performance predictabilty. If you suddenly need more resources, autoscaling can deploy additional resources to meet demand, and then scale back when the demand drops. Or if the traffic is heavily focused on one area, load balancing will help redirect some of the overload to less stressed areas.
+     - Cost: https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud
 
 
 
