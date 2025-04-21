@@ -9,7 +9,10 @@ Unit 1/9 and 2/9:
       - Maintenance: Regularly maintain and organize resources to control costs. Deprovision unnecessary resources to avoid extra charges.
       - Geography: Costs vary by region due to differences in power, labor, taxes, and fees. Network traffic costs differ based on geographical zones.
       - Subscription type: Different subscription types offer various usage allowances and free access to certain products.
-      - Azure Marketplace: Purchase third-party solutions and services, which may include additional costs for vendor services.  
+      - Azure Marketplace: Purchase third-party solutions and services, which may include additional costs for vendor services.
+
+Unit 3/9:
+  - Comparing pricing and total cost of ownership: 
 
 
 
