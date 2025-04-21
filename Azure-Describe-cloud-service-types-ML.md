@@ -7,15 +7,9 @@ Unit 1/6 and 2/6:
 
 Unit 3/6:
   - Describe Platform as a Service:
-    - Platform as a service (PaaS) is a middle ground between renting a space in a datacenter (infrastructure as a service/IaaS) and paying for a complete deployment solution (software as a service/SaaS). In a PaaS environment, the cloud provider maintains the physical infrastructure, physical security, and connection to the internet. They also maintain the OS, middleware, development tools, and business intelligence services that make up a cloud solution. In PaaS scenario, you don't have to worry about the licensing or patching for operating systems and databases.
+    - Platform as a service (PaaS) is a middle ground between renting a space in a datacenter (infrastructure as a service/IaaS) and paying for a complete deployment solution (software as a service/SaaS). In a PaaS environment, the cloud provider maintains the physical infrastructure, physical security, and connection to the internet. They also maintain the OS, middleware, development tools, and business intelligence services that make up a cloud solution. In a PaaS scenario, you don't have to worry about the licensing or patching for operating systems and databases.
+    - PaaS is well-suited to provide a complete development environment without the headache of maintaining all the development infrastructure.
 
-
-
-
-
-        
-
-Describe infrastructure as a service (IaaS).
-Describe platform as a service (PaaS).
-Describe software as a service (SaaS).
-Identify appropriate use cases for each cloud service (IaaS, PaaS, SaaS).
+Unit 4/6:
+  - Describe Software as a Service:
+    - Software as a service (SaaS) is the most complete cloud service model from a product perspective. With SaaS, you're essentially renting or using a fully developed application. Email, financial software, and messaging applications. and connectivity software are all common examples of SaaS implementation.
