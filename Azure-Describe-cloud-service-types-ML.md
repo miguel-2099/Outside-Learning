@@ -13,3 +13,7 @@ Unit 3/6:
 Unit 4/6:
   - Describe Software as a Service:
     - Software as a service (SaaS) is the most complete cloud service model from a product perspective. With SaaS, you're essentially renting or using a fully developed application. Email, financial software, and messaging applications. and connectivity software are all common examples of SaaS implementation.
+
+Unit 5/6: Module assessment
+
+Unit 6/6: Summary
