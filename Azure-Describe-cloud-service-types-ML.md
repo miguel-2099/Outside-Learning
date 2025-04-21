@@ -1,4 +1,4 @@
-![shared-responsibility-b3829bfe](https://github.com/user-attachments/assets/ba9b0496-0f3c-4989-8300-112a5b6d4bed)# [Describe cloud service types](https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/)
+# [Describe cloud service types](https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/)
 
 Unit 1/6:
   - Intro and Describe Infrastructure as a Service:
