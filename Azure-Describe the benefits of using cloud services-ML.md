@@ -22,7 +22,7 @@ Unit 4/7:
     - On the security side, you can find a cloud solution that matches your security needs. If you want maximum control of security, infrastructure as a service (IaaS) provides you with physical resources but lets you manage the operating systems and installed software, including patches and maintenance. If you want patches and maintenance taken care of automatically, platform as a service (PaaS) or software as a service (SaaS) deployments may be the best cloud strategies for you. And because the cloud is intended as an over-the-internet delivery of IT resources, cloud providers are typically well suited to handle things like distributed denial of service (DDoS) attacks, making your network more robust and secure.
     - By establishing a good governance footprint early, you can keep your cloud footprint updated, secure, and well managed.
 
-Unit 5/7 to 7/7:
+Unit 5/7:
   - Describe the benefits of manageability in the cloud:
     - A major benefit of cloud computing is the manageability options. There are two types of manageability for cloud computing that you'll learn about, and both are excellent benefits:
       - Management of the cloud: Speaks to managing your cloud resources. In the cloud, you can:
@@ -36,10 +36,7 @@ Unit 5/7 to 7/7:
         - Using APIs.
         - Using PowerShell.
 
+Unit 6/7: Test
 
+Unit 7/7: Summary
 
-
-Describe the benefits of high availability and scalability in the cloud.
-Describe the benefits of reliability and predictability in the cloud.
-Describe the benefits of security and governance in the cloud.
-Describe the benefits of manageability in the cloud.
