@@ -8,7 +8,6 @@ Unit 1/7 to 2/7:
       - Vertical scaling: If you are developing an app and you needed more processing power, you could vertically scale up to add more CPUs or RAM to the virtual machine. Conversely, if you realized you had over-specified the needs, you could vertically scale down by lowering the CPU or RAM specifications.
       - Horizontal scaling: If you suddenly experienced a steed jump in demand, your deployed resources could be scaled out automatically or manually. (i.e.: you could add additional virtual machines or containers, scaling out. In the same manner, if there was a significant drop in demand, deployed resources could be scaled in (either automatically or manually), scaling in.)
      
-
  Unit 3/7:
    - Describe the benefits of reliabilty and predictability in the cloud:
      - Two crucial cloud benefits that help you develop solutions with confidence are reliabilty and predictability.
@@ -17,8 +16,9 @@ Unit 1/7 to 2/7:
      - Performance: Performance predictabilty focused on predicting the resources needed to deliver a positive experience for customers. Autoscaling, load balancing, and high availability are just some of the cloud concepts that support performance predictabilty. If you suddenly need more resources, autoscaling can deploy additional resources to meet demand, and then scale back when the demand drops. Or if the traffic is heavily focused on one area, load balancing will help redirect some of the overload to less stressed areas.
      - Cost: Cost predictabilty is focused on predicting or forecasting the cost of the cloud spend, you can track and monitor resources in real time to ensure you're using them in the most efficient way, and apply data analysis to find patterns and trends that help better plan resource deployment. You can predict future costs and adjust your resources as needed by operating and using the cloud analytics and information. Even using the Total Cost of Ownership (TCO) or Pricing Calculator to get an estimate of potential cloud spend.
 
-
-
+Unit 4/7:
+  - Decribe the benefits of security and governance in the cloud:
+    - Cloud features support governance and compliance, wether you're deploying infrastructure (IaaS) or software as a service (Saas). Cloud-based auduting helps flag any resource that's out of compliance with your corporate standards and provides mitigation strategies. Depending on your operating model, software patches and updates may also automatically be applied, which helps with both governance and security. Things like set templates help ensure that all your deployed resources 
 
 
 
