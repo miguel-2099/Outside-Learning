@@ -14,6 +14,7 @@ Unit 1/9 and 2/9:
 Unit 3/9:
   - Comparing pricing calculator and total cost of ownership (TCO): 
     - The calculators help understand potential Azure expenses. Both are accessible from the internet and both calculators allow you to build out a configuration. However, the two calculators have very different purposes:
+      - Pricing calculator: It's designed to give you an estimated cost for provisioning resources in Azure. You can get an estiamte for individual resources, build out a solution
 
 
 
