@@ -24,11 +24,47 @@ Unit 4/9:
     - Configuration Details: Set specific values for each service, including region, operating system, instance type, and storage.
     - Review and Save: Review the total estimated cost, and share it with your team.
 
-Unit 5/9:
-  - https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/5-exercise-compare-workload-costs-use-total-cost-ownership-calculator
+Unit 5/9: Exercise - Compare workload costs using the TCO calculator
+
+Unit 6/9: 
+  - Describe the MS Cost Management Tool:
+    - The Azure Cost Management helps you monitor and manage your Azure spending. It provides tools for cost analysis, alerts, and budgeting.
+  - Cost Analysis:
+    - Visualise costs: View costs by billing cycle, region, resource, etc.
+    - Identify Trends: Understand spending patterns and forecast future costs.
+  - Cost Alerts (types):
+    - Budget Alerts: Notify when spending exceeds defined limits.
+    - Credit Alerts: Inform when Azure credit is consumed (for Enterprise Agreements).
+    - Department Spending Quota Alerts: Alert when departamental spending reaches set thresholds.
+  - Budgets:
+    - Set Spending Limits: Define budgets based on subscription, resource group, or service type.
+    - Automate Management: Trigger actions like suspending resources when budget conditions are met.
+  - Support:
+    - Help Available: Explore existing questions or ask new ones on MS Q&A for issues related to this module. 
+
+Unit 5/5: 
+  - Describe the purpose of tags:
+    - Organization Strategy: As cloud usage grows, organizing resources effectively is crucial for understanding usage and managing costs.
+    - Resource Tags:
+      - Resource Management: Locate and manage resources by workloads, enviroments, business units, and owners.
+      - Cost Management: Group resources for cost reporting, budget tracking, and cost forecasting.
+      - Operations Management: Group resources by their criticality to business operations, aiding in SLA formulation (service-level agreements).
+      - Security: Classify data by security levels, such as public or confidential.
+      - Governance and Compliance: Identify resources that meet governance or regulatory requirements.
+      - Workload Optimization and Automation: Visualize resources in complex deployments and automate tasks using tools like Azure DevOps.
+      - Managing Tags: Tags can be added, modified, or deleted using various tools like PowerShell, Azure CLI, and Azure portal. Azure policy can enforce tagging rules and conventions.
+      - Tagging Structure: Tags consist of a name and value, and examples include AppName, CostCenter, Owner, Environment, and Impact.
+
+Unit 8/9: Module Assessment
+
+Unit 9/9: Summary
 
 
-Describe factors that can affect costs in Azure.
-Compare the Pricing calculator and Total Cost of Ownership (TCO) calculator.
-Describe the Microsoft Cost Management Tool.
-Describe the purpose of tags.
+
+
+
+
+
+
+
+
