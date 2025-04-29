@@ -18,4 +18,37 @@ Unit 1/6 and 2/6:
 
 Unit 3/6:
   - Describe the purpose of Azure Arc:
-    - Azure Arc simplifies governance and management by providing a consistent platform for managing both multicloud
+    - Managing Hybrid and Multi-Cloud Environments with Azure:
+      - Azure Arc simplifies governance and management by providing a consistent platform for managing both multicloud environments.
+      - Projects non-Azure resources into Azure Resource Manager (RAM) for unified/centralized management.
+      - Resource Types Managed: Includes servers, Kubernetes clusters, Azure data services, SQL Server, and virtual machines (preview).
+      - Capable of: Managing multi-cloud and hybrid virtual machines, Kubernetes clusters, and databases as if they are running in Azure. Use familiar Azure services and management capabilities across different environments.
+      - Support traditional ITOps while introducing environments.
+      - Configure custom locations on top of Azure Arc-enabled Kubernetes clusters.
+
+Unit 4/6:
+  - Describe Azure Resource Manager and Azure ARM templates:
+    -  Azure Resource Manager (ARM):
+      - Deployment and Management Service: ARM handles requests from Azure tools, APIs, or SDKs, authenticates and authorizes them, and sends them to the Azure service.
+    - Benefits:
+      - Declarative Templates: Manage infrastructure through JSON templates.
+      - Group Management: Deploy, manage, and monitor resources as a group.
+      - Consistent State: Ensure resources are deployed consistently throughout the development lifecycle.
+      - Access Control: Integrated RBAC for all services.
+      - Tagging: Organize resources and clarify billing.
+    - Infrastructure as Code:
+      - Concept: Manage infrastructure as code using tools like Azure Cloud Shell, Azure PowerShell, or Azure CLI.
+      - ARM Templates: Describe resources in JSON format, ensuring correct creation and connection.
+      - Benefits:
+        - Declarative Syntax: Define desired state without programming commands.
+        - Repeatable Results: Consistent deployment across environments.
+        - Orchestration: Deploy interdependent resources in the correct order.
+        - Modular Files: Use smaller, reusable components.
+        - Extensibility: Include PowerShell or Bash scripts 
+   
+
+
+
+
+
+
