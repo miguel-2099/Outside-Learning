@@ -44,7 +44,19 @@ Unit 4/6:
         - Repeatable Results: Consistent deployment across environments.
         - Orchestration: Deploy interdependent resources in the correct order.
         - Modular Files: Use smaller, reusable components.
-        - Extensibility: Include PowerShell or Bash scripts 
+        - Extensibility: Include PowerShell or Bash scripts in templates.
+      - Bicep:
+        - Language: Uses declarative syntax to deploy Azure resources.
+        - Benefits:
+          - Support for All Resource Types: Immediate support for new Azure services.
+          - Simple Syntax: Easier to read and write compared to JSON.
+          - Repeatable Results: Consistent deployment across environments.
+          - Orchestration: Deploy resources in the correct order.
+          - Modularity: Uses modules to simplify development and reuse code.
+
+Unit 5/6: Module Assessment
+
+Unit 6/6: Summary
    
 
 
