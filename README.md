@@ -3,4 +3,4 @@ This repository is where I will add what I learned and practice while learning, 
 
 
 
-All my notes are stored in this file. DO NOT copy or share unless you have my written consent. Thanks!
+All my notes are stored in this file. DO NOT copy or share without prior written consent. Thanks!
