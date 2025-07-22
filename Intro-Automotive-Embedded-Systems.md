@@ -12,4 +12,4 @@ Lesson 1: Introduction to Embedded Systems in Automotive
     - Actuator: Performs physical actions based on commands from the microcontroller, like turning the AC on.
     - Embedded Software: It tells the system how to react in different situations based on the data received.
     - Communication Systems: Allows different parts of the car to communicate with each other and with external devices like smartphones or diagnostic tools.
-    - 
+    - (https://www.coursera.org/learn/introduction-to-automotive-embedded-systems/lecture/kNDpB/automotive-applications-of-embedded-systems)
